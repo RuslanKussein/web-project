@@ -459,6 +459,113 @@ div[val]:hover .text {
   .about__title {
     font-size: 20px; }
   .about__text {
-    font-size: 12px; } }
+    font-size: 12px; }
+  #toTop {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    bottom: 10px;
+    right: 35px; }
+  .about {
+    padding-top: 40px;
+    padding-bottom: 70px; }
+  .about__text {
+    margin-bottom: 40px; }
+  p {
+    line-height: 20px;
+    margin-bottom: 24px; }
+  .about__h3 {
+    margin-top: 17px;
+    margin-bottom: 10px;
+    font-size: 17px; }
+  .menu-bar {
+    padding: 13px 0; }
+  .services {
+    padding-top: 80px;
+    padding-bottom: 60px; }
+  .card {
+    padding: 25px 5px 20px; }
+    .card p {
+      font-size: 12px; }
+  .portfolio {
+    padding-top: 65px;
+    padding-bottom: 50px; }
+  .filter {
+    padding: 35px 0; }
+  .pricing {
+    padding-top: 80px;
+    padding-bottom: 65px; }
+  .price__head {
+    padding-top: 40px;
+    padding-bottom: 55px;
+    max-height: 215px;
+    font-size: 50px; }
+  .price__body {
+    font-size: 15px; }
+    .price__body li {
+      margin: 0 auto;
+      max-width: 165px;
+      padding-top: 15px;
+      padding-bottom: 12px; }
+  .price__footer {
+    padding: 20px 0; }
+    .price__footer button {
+      width: 135px;
+      height: 45px;
+      font-size: 17px; }
+  .team {
+    padding-bottom: 50px;
+    padding-top: 70px; }
+    .team h4 {
+      margin-top: 16px; }
+    .team p {
+      margin-bottom: 15px; }
+  #blog {
+    padding-top: 40px; }
+    #blog img {
+      display: none; }
+  .blog {
+    text-align: center; }
+    .blog a {
+      font-size: 22px; }
+    .blog p {
+      font-size: 13px;
+      padding-right: 10px; }
+    .blog div {
+      padding-left: 15%; }
+  .button_blog {
+    margin-top: 30px;
+    margin-bottom: 5px; }
+  .footer {
+    padding-top: 67px;
+    padding-bottom: 60px; }
+    .footer .about__text {
+      line-height: 16px; }
+    .footer input {
+      margin-bottom: 10px;
+      margin-top: 10px;
+      padding: 10px; }
+    .footer textarea {
+      margin-bottom: 10px;
+      margin-top: 10px;
+      height: 160px;
+      padding: 15px; }
+  .circle {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px; }
+  .fa-map-marker-alt, .fa-phone, .fa-envelope {
+    font-size: 40px; }
+  .rules {
+    padding: 6px 0;
+    font-size: 14px; }
+  .button_footer {
+    padding: 10px 10px;
+    font-size: 18px;
+    width: 130px; }
+  .button {
+    margin-bottom: 10px; }
+  .header__text {
+    margin-bottom: 45px; } }
 
 /*# sourceMappingURL=style.css.map */
