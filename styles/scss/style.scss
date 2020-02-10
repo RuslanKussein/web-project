@@ -398,7 +398,7 @@ div[val]{
 }
 
 //Media
-@media screen and (max-width:1024px){
+@media screen and (max-width:1200px){
   nav{
     display:none;
   }
@@ -544,26 +544,6 @@ div[val]{
     }
   }
 
-  #blog{
-    padding-top: 40px;
-    img{
-      display:none;
-    }
-  }
-
-  .blog{
-    text-align: center;
-    a{
-      font-size: 22px;
-    }
-    p{
-      font-size: 13px;
-      padding-right:10px;
-    }
-    div{
-      padding-left: 15%;
-    }
-  }
 
   .button_blog{
     margin-top: 30px;
