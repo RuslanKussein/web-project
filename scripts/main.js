@@ -35,10 +35,11 @@ $(document).ready(function () {
 
     //Arrow toTop
     $(window).scroll(function () {
-        if ($(this).scrollTop() != 0)
+        if ($(this).scrollTop() != 0) {
             $('#toTop').fadeIn();
-        else
+        } else {
             $('#toTop').fadeOut();
+        }
     });
     $('#toTop').click(function () {
         $('body,html').animate({

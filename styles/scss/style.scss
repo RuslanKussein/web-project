@@ -1,6 +1,5 @@
 @import 'nullstyle';
 @import 'fonts';
-
 body{
   font-family: "Open Sans";
 }
@@ -11,6 +10,26 @@ button{
 
 p{
   line-height: 15px;
+}
+
+
+//Arrow toTop
+#toTop {
+  z-index: 999;
+  width: 40px;
+  height: 40px;
+  border: none;
+  font-size: 20px;
+  border-radius: 15px;
+  background: #00897b;
+  text-align: center;
+  padding: 5px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+  display: none;
+  color: #000000;
 }
 
 //Navbar
@@ -378,26 +397,15 @@ div[val]{
   font-weight: 600;
 }
 
-//Arrow toTop
-#toTop {
-  z-index: 999;
-  width: 40px;
-  height: 40px;
-  border: none;
-  font-size: 20px;
-  border-radius: 15px;
-  background: #00897b;
-  text-align: center;
-  padding: 5px;
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-  cursor: pointer;
-  display: none;
-  color: #000000;
-}
-
 //Media
+@media screen and (min-width: 1201px) {
+  nav{
+    display:block!important;
+  }
+  .menu{
+    flex-direction: row!important;
+  }
+}
 @media screen and (max-width:1200px){
   nav{
     display:none;
