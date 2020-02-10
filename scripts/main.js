@@ -23,7 +23,7 @@ $(document).ready(function () {
         var target = $(this).attr('href');
         $('html, body').animate({
             scrollTop: $(target).offset().top
-        }, 3000);
+        }, 1500);
         $('ul.menu a[href^="#"]').css({
             'color': '#212121'
         });
